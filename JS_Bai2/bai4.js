@@ -1,5 +1,5 @@
 function checkArray(value) {
     return Array.isArray(value);
 }
-checkArray([1,2,3]);
-checkArray(1);
+console.log(checkArray([1,2,3]));
+console.log(checkArray(1));
