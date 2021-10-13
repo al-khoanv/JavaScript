@@ -10,9 +10,12 @@
     <script src="./node_modules/moment/moment.js"></script>
     <script>
         function checkDate(date) {
-            console.log(moment(`${date}`, "YYYY/MM/DD").isValid());
+            var day = new Date(date);
+            console.log(moment(`${day}`, "YYYY/MM/DD").isValid());
         }
-        checkDate('2021/02/ab');
+        checkDate('2021/12/30');
+
+        checkDate('2021/10/ab')
     </script>
 </body>
 </html>
