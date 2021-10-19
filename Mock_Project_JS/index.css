@@ -1,0 +1,72 @@
+button {
+    background: #282b34;
+    border: 1px solid #282b34;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    height: 60px;
+    margin-bottom: 15px;
+    width: 60px;
+    text-align: center;
+}
+button:hover {
+    background-color: gray;
+    transition: background-color 1ms linear;
+}
+.container-sm {
+    background: #22252e;
+    border-radius: 2rem;
+    height: 812px;
+    margin: 0 auto;
+    padding: 0;
+    width: 375px;
+}
+.green {
+    color: #0b7910;
+}
+.red {
+    color: #8a292b;
+}
+.keys {
+    display: flex;
+    justify-content: space-around;
+}
+.keyboard {
+    background-color: #2a2c38;
+    border-radius: 2rem;
+    color: white;
+    height: 60%;
+    width: 100%;
+    padding: 30px 25px 0;
+}
+.show-result {
+    height: 40%;
+    position: relative;
+    text-align: right;
+}
+span {
+    color: white;
+    font-size: 20px;
+}
+.valueOne, 
+.valueTwo {
+    font-size: 30px;
+}
+.valueSymbol {
+    color: #8a292b;
+    font-size: 25px;
+    font-weight: bold;
+}
+.math {
+    bottom: 6rem;
+    position: absolute;
+    right: 30px;
+}
+p {
+    bottom: 15px;
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    right: 30px;
+}
